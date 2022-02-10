@@ -1,0 +1,45 @@
+/* mobile */
+
+@media only screen and (max-width: 765px) {
+  .course-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+  }
+  .one {
+    padding-top: 20px;
+  }
+  .tong2-footer {
+    padding: 20px;
+  }
+  .lien-he {
+    padding: 20px;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 766px) and (max-width: 1260px) {
+  .course-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+  }
+  .one {
+    padding-top: 20px;
+  }
+  .tong2-footer {
+    padding: 0px 40px;
+  }
+}
+
+/* iphone5s */
+
+@media (max-width: 320px) {
+}
