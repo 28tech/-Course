@@ -39,6 +39,33 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+#dang-ky-hoc{
+	margin-top: 20px;
+	width: 250px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px #999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	background-color: green;
+}
+#dang-ky-hoc:hover{
+	/* color: black; */
+	background-color:#3e8e41 ;
+}
+#dang-ky-hoc:active{
+	background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
