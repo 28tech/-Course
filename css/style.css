@@ -39,6 +39,21 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.muc-luc{
+	width: 25%;
+	height: 400px;
+	position: fixed;
+	top: 16%;
+	right: 4%;
+}
+.muc-luc p{
+	color: black;
+}
+@media screen and (max-width: 1000px) {
+	.muc-luc{
+		display: none;
+	}
+  }
 #dang-ky-hoc{
 	margin-top: 20px;
 	width: 250px;
@@ -76,6 +91,7 @@ a {
   text-decoration: none;
 }
 .containert {
+	position: absolute;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -131,7 +147,7 @@ a {
 }
 /* Header section */
 #header {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
@@ -288,7 +304,7 @@ main {
 
 .course-content {
   padding-top: 70px;
-  width: 80%;
+  width: 70%;
 }
 .main {
   text-transform: uppercase;
